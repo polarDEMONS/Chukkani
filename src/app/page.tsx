@@ -1,5 +1,4 @@
-import { mockTeluguBooks } from '@/lib/mockBooks';
-
+import { mockTeluguBooks } from '../../lib/mockBooks';
 export default function Home() {
   const featuredBooks = mockTeluguBooks.slice(0, 3);
   const allBooks = mockTeluguBooks;
